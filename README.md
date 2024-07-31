@@ -1,7 +1,7 @@
 # Neural_Networks
-Project Title: Time Series Forecasting
+# Time Series Forecasting
 
-Table of Contents
+## Table of Contents
 
 Introduction
 Team Members
@@ -13,37 +13,38 @@ Model Training and Evaluation
 Results
 Contributions
 Acknowledgments
-Introduction
+
+## Introduction
 
 This project involves the application of time series forecasting techniques to predict future values based on historical data. The work includes data preprocessing, exploratory data analysis, and training various forecasting models to achieve accurate predictions.
 
-Team Members
+## Team Members
 
 Mohammad Amiri (10887256)
 Sara Limooee (100886949)
 Dorsa Moadeli (10926114)
 Mohamed Shoala (10871548)
 
-Project Structure
+## Project Structure
 
 Time_Series_Forecasting.ipynb: Notebook containing the time series forecasting analysis and model training.
 Setup and Installation
 
 Clone the repository:
-sh
-Copy code
+```
 git clone <repository_url>
 cd <repository_directory>
+```
 Create and activate a virtual environment:
-sh
-Copy code
+```
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 Install the required packages:
-sh
-Copy code
+```
 pip install -r requirements.txt
-Data Preparation
+```
+## Data Preparation
 
 The dataset consists of time series data that has been preprocessed to handle missing values, normalize the data, and create necessary time-based features. Steps include:
 
@@ -54,7 +55,7 @@ Exploratory Data Analysis (EDA)
 
 EDA was conducted to understand the time series data's trends, seasonality, and autocorrelation patterns. Visualization techniques such as line plots, autocorrelation plots, and seasonal decomposition were used. Details are available in Time_Series_Forecasting.ipynb.
 
-Model Training and Evaluation
+## Model Training and Evaluation
 
 Various time series forecasting models were trained and evaluated, including:
 
@@ -63,17 +64,19 @@ SARIMA (Seasonal ARIMA)
 Exponential Smoothing (Holt-Winters)
 Prophet
 LSTM (Long Short-Term Memory) networks
-Results
+
+## Results
 
 The performance of the models was evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Detailed results and visualizations are documented in the Time_Series_Forecasting.ipynb notebook.
 
-Contributions
+## Contributions
 
 Mohammad Amiri (10887256): Data preprocessing and cleaning
 Sara Limooee (100886949): Exploratory data analysis and visualization
 Mohamed Shoala (10871548): Model training and evaluation
 Dorsa Moadeli (10926114): Documentation and report preparation
-Acknowledgments
+
+## Acknowledgments
 
 We acknowledge the guidance and support provided by our course instructors and peers.
 
